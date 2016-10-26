@@ -8,7 +8,7 @@ function storeCtrl($scope,$http){
     $scope.find = function(){
         console.log("clicked");
         
-        $http.get("data.json").success($scope.renderStores);
+        $http.get("/restaurants").success($scope.renderStores);
         //console.log($scope.renderStores);
         //console.log("marker length:"+ $scope.renderStores);
 
