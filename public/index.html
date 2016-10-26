@@ -1,0 +1,77 @@
+<html>
+
+<head>
+
+    <title>Store Locator App</title>
+    <meta name="description" content="A store Locator application">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Google Maps  API -->
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBxjuIKpcy5tYZCiXoHNlYEpwhT9x2PrvY&sensor=false&language=en"></script>
+
+   <!--Angular js-->
+    <script src="../node_modules/angular/angular.min.js"></script>
+
+    <!--controller.js-->
+    <script type="text/javascript" src="controller.js"></script>
+</head>
+'
+<!-- Declares myApp as the starting Angular module -->
+<body  background="img.jpg" ng-app="myApp">
+
+<div class="container" ng-controller="storeCtrl">
+    <div class="header">
+    
+        
+    
+        <h1 class="text-muted"><center>The Restaurant Finder</center></h1>
+
+
+    </div>
+    <!-- Map and Side Panel -->
+    <div class="row content">
+
+        <!-- Side Panel -->
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <!-- Panel Title -->
+                
+                <!-- Panel Body -->
+                <div class="panel-body">
+                    <!-- Creates Form -->
+                    <form  method="post">
+
+                        
+
+                        <!-- Search button. Note that its tied to find() function from storeCtrl.   -->
+                        <button  class="btn btn-primary btn-block" ng-click="find()" style"font-color:"brown"" >Restaurants NearBy</button>
+                    </form>
+
+                    <!-- getting data from database according to given input-->
+                    <div ng-repeat="marker in markers" >
+                        <br/>
+                        <a id="country_container" href="#"  ng-click="openInfoWindow($event, marker)">
+                            <label id="names" >Restaurant Name: {{marker.name}}</label></a>
+                        <small>Address: {{marker.address}}</small><br/>
+
+                                            <small>Phone no: {{marker.contact}}</small>
+                        <br/>
+                        <br/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-md-7">
+            <div id="map"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

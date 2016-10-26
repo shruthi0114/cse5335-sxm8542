@@ -1,0 +1,82 @@
+[
+   {
+      "Name": "Piccolo Mondo",
+      "Address": "829 E Lamar Blvd, Arlington, Tx-76011",
+      "Contact": "(817) 265-9174",
+      "lat": "33.2",
+      "lon": "-97.22549",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "Babe's Chicken Dinner House",
+      "Address": " 230 N Center St, Arlington, TX 76011",
+      "Contact": "(817) 801-0300",
+      "lat": "32.738735",
+      "lon": "-97.10723",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "Flying Fish",
+      "Address": "300 E Abram St #100, Arlington, TX 76010",
+      "Contact": "(817) 303-3335",
+      "lat": "32.73526",
+      "lon": "-97.10426",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "Restaurant506",
+      "Address": "506 N Center St, Arlington, TX 76011",
+      "Contact": "(817) 801-5541",
+      "lat": "32.74326",
+      "lon": "-97.107254",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "Prince Lebanese Grill",
+      "Address": "502 W Randol Mill Rd, Arlington, TX 76011",
+      "Contact": "(817) 469-1811",
+      "lat": "32.749775",
+      "lon": "-97.1118",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "The Grease Monkey",
+      "Address": " 200 N Mesquite St, Arlington, TX 76011",
+      "Contact": "(817) 665-5454",
+      "lat": "32.738598",
+      "lon": "-97.105965",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "Twisted Root Burger Co.",
+      "Address": "310 E Abram St #100, Arlington, TX 76010",
+      "Contact": "(817) 201-9669",
+      "lat": "32.735363",
+      "lon": "-97.10397",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "J Gilligan's Bar & Grill ",
+      "Address": "400 E Abram St, Arlington, TX 76010",
+      "Contact": "(817) 274-8561",
+      "lat": "32.73508",
+      "lon": "-97.10312",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "Fuzzy's Taco Shop",
+      "Address": " 510 E Abram St, Arlington, TX 76010",
+      "Contact": "(817) 265-8226",
+      "lat": "32.73537",
+      "lon": "-97.1021",
+      "Area": "Arlington"
+   },
+   {
+      "Name": "J.R. Bentley's",
+      "Address": "406 W Abram St, Arlington, TX 76010",
+      "Contact": "(817) 261-7351",
+      "lat": "32.735394",
+      "lon": "-97.1115",
+      "Area": "Arlington"
+   }
+]
