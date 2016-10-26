@@ -24,9 +24,9 @@ If you haven't already, log in to your Heroku account and follow the prompts to 
 $ heroku login  
 
 Clone the repository  
-Use Git to clone cse5335-axf9719's source code to your local machine.  
-$ heroku git:clone -a cse5335-axf9719  
-$ cd cse5335-axf9719  
+Use Git to clone cse5335-sxm8542's source code to your local machine.  
+$ heroku git:clone -a cse5335-sxm8542 
+$ cd cse5335-sxm8542 
 
 Deploy your changes  
 Make some changes to the code you just cloned and deploy them to Heroku using Git.  
