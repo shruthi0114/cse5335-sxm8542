@@ -22,20 +22,12 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json'}));  // parse applica
 
 
 // Connect to the db
-MongoClient.connect("mongodb://shruthi:shruthi@ds033076.mlab.com:33076/heroku_hvrpbkbq", function(err, db,res) {
+MongoClient.connect("mongodb://shruthi:shruthi@ds033076.mlab.com:33076/heroku_hvrpbkbq", function(err, db) {
     if (err) {
         return console.dir(err);
     }
-    else{ console.log("db connected");}
-    var collection=db.collection('restaurants');
-    collection.find({}).toArray(function(err,result){
-        if(err){
-            res.send(err);
+    
 
-        }else if(result.length){
-            console.log(result);
-        }
-    });
 
 
 
@@ -44,12 +36,12 @@ MongoClient.connect("mongodb://shruthi:shruthi@ds033076.mlab.com:33076/heroku_hv
 // Retrieve records for stores in the db according to given input
 app.get('/restaurants', function(req, res){
 
-     var collection=db.collection('restaurants');
+     var collection=db.collection('restaurant');
     collection.find({}).toArray(function(err,result){
         if(err){
             res.send(err);
 
-        }else if(result.length){
+        }else{
             console.log(result);
             res.json(result);
         }
@@ -63,9 +55,10 @@ app.get('/restaurants', function(req, res){
 
     });*/
 });
-
-
 });
+
+
+
 
 
 // Listen
